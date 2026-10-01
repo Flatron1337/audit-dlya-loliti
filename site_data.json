@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_messages": 6187,
-    "total_chars": 147364,
+    "total_messages": 6189,
+    "total_chars": 147380,
     "meters_of_text": 547.5,
     "avg_day": 398.9,
     "avg_hour": 16.6,
@@ -12,19 +12,19 @@
       "title": "День индустриального спама (937 сообщений!)"
     },
     "night_stats": {
-      "total": 2884,
+      "total": 2886,
       "percent": 46.6,
-      "evgeniy": 1602,
-      "lolita": 1282
+      "evgeniy": 1603,
+      "lolita": 1283
     },
-    "last_synced_id": 553614
+    "last_synced_id": 553616
   },
   "users": {
     "evgeniy": {
       "name": "Женя",
-      "messages": 3369,
+      "messages": 3370,
       "percent": 54.5,
-      "chars": 112945,
+      "chars": 112961,
       "avg_chars": 33.5,
       "voice": 9,
       "video": 172,
@@ -33,12 +33,12 @@
     },
     "lolita": {
       "name": "Лолита",
-      "messages": 2818,
+      "messages": 2819,
       "percent": 45.5,
       "chars": 34419,
       "avg_chars": 12.2,
       "voice": 211,
-      "video": 100,
+      "video": 101,
       "role": "Подкастер года (209 голосовых!) и пулеметчица",
       "badge": "46.8% сообщений | 209 аудиосообщений"
     }
@@ -112,17 +112,17 @@
     },
     {
       "date": "2026-10-02",
-      "total": 90,
-      "Женя": 63,
-      "Лолита": 27
+      "total": 92,
+      "Женя": 64,
+      "Лолита": 28
     }
   ],
   "hours_chart": [
     {
       "hour": 0,
-      "Женя": 262,
-      "Лолита": 176,
-      "total": 438
+      "Женя": 263,
+      "Лолита": 177,
+      "total": 440
     },
     {
       "hour": 1,
