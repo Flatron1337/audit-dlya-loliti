@@ -238,27 +238,78 @@ body {
   }
 }
 
-/* Custom Audio Scrubber and Volume Range */
+/* Custom Audio Scrubber and Sliders Range */
 input[type="range"].audio-range {
   -webkit-appearance: none;
   appearance: none;
   background: rgba(255, 255, 255, 0.15);
   border-radius: 9999px;
   cursor: pointer;
-  height: 4px;
+  height: 6px;
 }
 
 input[type="range"].audio-range::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 10px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   background: #06b6d4;
-  box-shadow: 0 0 8px rgba(6, 182, 212, 0.8);
-  transition: transform 0.1s ease;
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.8);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="range"].audio-range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+  background: #06b6d4;
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.8);
+  transition: transform 0.15s ease;
 }
 
 input[type="range"].audio-range:hover::-webkit-slider-thumb {
-  transform: scale(1.3);
+  transform: scale(1.25);
+}
+
+input[type="range"].audio-range:hover::-moz-range-thumb {
+  transform: scale(1.25);
+}
+
+/* Calculator Specific Themed Neon Thumbs */
+#calc-sleep {
+  accent-color: #06b6d4;
+}
+#calc-sleep::-webkit-slider-thumb {
+  background: #06b6d4;
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.9);
+}
+#calc-sleep::-moz-range-thumb {
+  background: #06b6d4;
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.9);
+}
+
+#calc-video {
+  accent-color: #ec4899;
+}
+#calc-video::-webkit-slider-thumb {
+  background: #ec4899;
+  box-shadow: 0 0 12px rgba(236, 72, 153, 0.9);
+}
+#calc-video::-moz-range-thumb {
+  background: #ec4899;
+  box-shadow: 0 0 12px rgba(236, 72, 153, 0.9);
+}
+
+#calc-intensity {
+  accent-color: #a855f7;
+}
+#calc-intensity::-webkit-slider-thumb {
+  background: #a855f7;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.9);
+}
+#calc-intensity::-moz-range-thumb {
+  background: #a855f7;
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.9);
 }
