@@ -53,10 +53,11 @@ async def update_data(payload: dict, x_sync_token: str = Header(None)):
     try:
         with open(DATA_FILE, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
-    except OSError:
-        pass
+    except OSError as err:
+        sys.stderr.write(f"Failed to persist {DATA_FILE}: {err}\n")
 
-    total = payload.get("summary", {}).get("total_messages", 0)
+    summary_section = payload.get("summary")
+    total = summary_section.get("total_messages", 0) if isinstance(summary_section, dict) else 0
     return {"status": "success", "total_messages": total}
 
 # Serve index.html explicitly
