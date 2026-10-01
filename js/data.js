@@ -187,18 +187,18 @@ export const DEFAULT_AUDIT_DATA = {
     }
   ],
   photos: [
-    { src: "ChatExport_2026-10-01/photos/photo_1@16-07-2026_21-35-36.jpg", user: "Женя", date: "16.07.2026", time: "21:35", note: "Первое знакомство / WB старт" },
-    { src: "ChatExport_2026-10-01/photos/photo_10@22-09-2026_16-50-25.jpg", user: "Лолита", date: "22.09.2026", time: "16:50", note: "Вещдок №10" },
-    { src: "ChatExport_2026-10-01/photos/photo_19@23-09-2026_23-21-35.jpg", user: "Женя", date: "23.09.2026", time: "23:21", note: "Ночной эфир" },
-    { src: "ChatExport_2026-10-01/photos/photo_28@24-09-2026_02-58-39.jpg", user: "Женя", date: "24.09.2026", time: "02:58", note: "В 3 ночи спать нельзя" },
-    { src: "ChatExport_2026-10-01/photos/photo_37@25-09-2026_14-14-23.jpg", user: "Женя", date: "25.09.2026", time: "14:14", note: "Пятничный спам" },
-    { src: "ChatExport_2026-10-01/photos/photo_46@26-09-2026_00-54-59.jpg", user: "Лолита", date: "26.09.2026", time: "00:54", note: "Полночные хроники" },
-    { src: "ChatExport_2026-10-01/photos/photo_55@27-09-2026_16-09-48.jpg", user: "Женя", date: "27.09.2026", time: "16:09", note: "Выходной затишье" },
-    { src: "ChatExport_2026-10-01/photos/photo_64@28-09-2026_01-21-29.jpg", user: "Женя", date: "28.09.2026", time: "01:21", note: "Начало рекорда (937 сообщений)" },
-    { src: "ChatExport_2026-10-01/photos/photo_73@28-09-2026_13-27-44.jpg", user: "Женя", date: "28.09.2026", time: "13:27", note: "Пик спама 28.09" },
-    { src: "ChatExport_2026-10-01/photos/photo_82@29-09-2026_23-31-24.jpg", user: "Женя", date: "29.09.2026", time: "23:31", note: "Почти полночь" },
-    { src: "ChatExport_2026-10-01/photos/photo_91@30-09-2026_01-27-17.jpg", user: "Женя", date: "30.09.2026", time: "01:27", note: "Финал тестового периода" },
-    { src: "ChatExport_2026-10-01/photos/photo_100@30-09-2026_01-41-30.jpg", user: "Женя", date: "30.09.2026", time: "01:41", note: "Секретный материал дела" }
+    { src: "evidence/photo_1@16-07-2026_21-35-36.jpg", user: "Женя", date: "16.07.2026", time: "21:35", note: "Первое знакомство / WB старт" },
+    { src: "evidence/photo_10@22-09-2026_16-50-25.jpg", user: "Лолита", date: "22.09.2026", time: "16:50", note: "Вещдок №10" },
+    { src: "evidence/photo_19@23-09-2026_23-21-35.jpg", user: "Женя", date: "23.09.2026", time: "23:21", note: "Ночной эфир" },
+    { src: "evidence/photo_28@24-09-2026_02-58-39.jpg", user: "Женя", date: "24.09.2026", time: "02:58", note: "В 3 ночи спать нельзя" },
+    { src: "evidence/photo_37@25-09-2026_14-14-23.jpg", user: "Женя", date: "25.09.2026", time: "14:14", note: "Пятничный спам" },
+    { src: "evidence/photo_46@26-09-2026_00-54-59.jpg", user: "Лолита", date: "26.09.2026", time: "00:54", note: "Полночные хроники" },
+    { src: "evidence/photo_55@27-09-2026_16-09-48.jpg", user: "Женя", date: "27.09.2026", time: "16:09", note: "Выходной затишье" },
+    { src: "evidence/photo_64@28-09-2026_01-21-29.jpg", user: "Женя", date: "28.09.2026", time: "01:21", note: "Начало рекорда (937 сообщений)" },
+    { src: "evidence/photo_73@28-09-2026_13-27-44.jpg", user: "Женя", date: "28.09.2026", time: "13:27", note: "Пик спама 28.09" },
+    { src: "evidence/photo_82@29-09-2026_23-31-24.jpg", user: "Женя", date: "29.09.2026", time: "23:31", note: "Почти полночь" },
+    { src: "evidence/photo_91@30-09-2026_01-27-17.jpg", user: "Женя", date: "30.09.2026", time: "01:27", note: "Финал тестового периода" },
+    { src: "evidence/photo_100@30-09-2026_01-41-30.jpg", user: "Женя", date: "30.09.2026", time: "01:41", note: "Секретный материал дела" }
   ]
 };
 

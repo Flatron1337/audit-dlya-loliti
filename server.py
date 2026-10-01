@@ -65,5 +65,18 @@ async def update_data(payload: dict, x_sync_token: str = Header(None)):
 def read_root():
     return FileResponse("index.html")
 
+# Backward compatibility for photo paths
+@app.get("/ChatExport_2026-10-01/photos/{filename}")
+def legacy_photo_redirect(filename: str):
+    file_path = Path("evidence") / filename
+    if file_path.exists():
+        return FileResponse(file_path)
+    if "_thumb" in filename:
+        full_name = filename.replace("_thumb", "")
+        fallback_path = Path("evidence") / full_name
+        if fallback_path.exists():
+            return FileResponse(fallback_path)
+    raise HTTPException(status_code=404, detail="Photo not found")
+
 # Static files
 app.mount("/", StaticFiles(directory=".", html=True), name="static")
