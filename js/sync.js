@@ -135,7 +135,7 @@ export function startLiveUpdates(activeData, onUpdateCallback) {
 
   setInterval(async () => {
     try {
-      const res = await fetch('site_data.json?t=' + Date.now());
+      const res = await fetch('/api/data?t=' + Date.now()).catch(() => fetch('site_data.json?t=' + Date.now()));
       if (!res.ok) return;
       const freshData = await res.json();
       const newTotal = freshData.summary ? freshData.summary.total_messages : null;

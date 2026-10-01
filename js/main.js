@@ -14,7 +14,7 @@ const appState = JSON.parse(JSON.stringify(DEFAULT_AUDIT_DATA));
 
 async function fetchLatestData() {
   try {
-    const res = await fetch('site_data.json?t=' + Date.now());
+    const res = await fetch('/api/data?t=' + Date.now()).catch(() => fetch('site_data.json?t=' + Date.now()));
     if (!res.ok) return;
     const freshData = await res.json();
     if (freshData && freshData.summary) {
