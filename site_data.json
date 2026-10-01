@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_messages": 6167,
-    "total_chars": 146839,
+    "total_messages": 6169,
+    "total_chars": 146921,
     "meters_of_text": 547.5,
     "avg_day": 398.9,
     "avg_hour": 16.6,
@@ -12,19 +12,19 @@
       "title": "День индустриального спама (937 сообщений!)"
     },
     "night_stats": {
-      "total": 2864,
-      "percent": 46.4,
-      "evgeniy": 1589,
+      "total": 2866,
+      "percent": 46.5,
+      "evgeniy": 1591,
       "lolita": 1275
     },
-    "last_synced_id": 553593
+    "last_synced_id": 553596
   },
   "users": {
     "evgeniy": {
       "name": "Женя",
-      "messages": 3356,
+      "messages": 3358,
       "percent": 54.4,
-      "chars": 112490,
+      "chars": 112572,
       "avg_chars": 33.5,
       "voice": 9,
       "video": 172,
@@ -112,17 +112,17 @@
     },
     {
       "date": "2026-10-02",
-      "total": 70,
-      "Женя": 50,
+      "total": 72,
+      "Женя": 52,
       "Лолита": 20
     }
   ],
   "hours_chart": [
     {
       "hour": 0,
-      "Женя": 249,
+      "Женя": 251,
       "Лолита": 169,
-      "total": 418
+      "total": 420
     },
     {
       "hour": 1,
