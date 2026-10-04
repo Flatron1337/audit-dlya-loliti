@@ -1,7 +1,7 @@
 {
   "summary": {
-    "total_messages": 6578,
-    "total_chars": 154831,
+    "total_messages": 6579,
+    "total_chars": 154874,
     "meters_of_text": 547.5,
     "avg_day": 398.9,
     "avg_hour": 16.6,
@@ -17,14 +17,14 @@
       "evgeniy": 1627,
       "lolita": 1298
     },
-    "last_synced_id": 554918
+    "last_synced_id": 555649
   },
   "users": {
     "evgeniy": {
       "name": "Женя",
-      "messages": 3629,
+      "messages": 3630,
       "percent": 55.2,
-      "chars": 119042,
+      "chars": 119085,
       "avg_chars": 32.8,
       "voice": 9,
       "video": 176,
@@ -115,6 +115,12 @@
       "total": 481,
       "Женя": 323,
       "Лолита": 158
+    },
+    {
+      "date": "2026-10-04",
+      "total": 1,
+      "Женя": 1,
+      "Лолита": 0
     }
   ],
   "hours_chart": [
@@ -204,9 +210,9 @@
     },
     {
       "hour": 14,
-      "Женя": 262,
+      "Женя": 263,
       "Лолита": 200,
-      "total": 462
+      "total": 463
     },
     {
       "hour": 15,
